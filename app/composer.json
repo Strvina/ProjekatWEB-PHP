@@ -1,0 +1,13 @@
+{
+    "name": "vlada/app",
+    "autoload": {
+        "psr-4": {
+            "Vlada\\App\\": "src/",
+            "App\\Controllers\\": "controllers/",
+            "App\\Models\\": "models/"
+        }
+    },
+    "require": {
+        "twig/twig": "^3.6"
+    } 
+}

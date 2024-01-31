@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Koulen", cursive;
+  background: rgb(241, 247, 255);
+  
+}
+html{
+  scroll-behavior: smooth;
+}
+header {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  transition: opacity 0.2s ease-in-out ;
+  height: 1rem;
+}
+
+.contact-link {
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-link:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+
+.header-hidden {
+  opacity: 0;
+}
+
+.header-left {
+  flex: 1;
+}
+
+.header-center {
+  flex: 2;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-right {
+  flex: 1;
+  text-align: right;
+  font-size: 12px;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.header-buttons {
+  display: flex;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+section#languages ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+}
+
+section#languages li{
+flex-basis: 50%;
+margin-bottom: 10px;
+
+}
+
+h1 {
+  margin: 0;
+}
+
+nav {
+  background-color: black;
+  padding: 10px;
+  height: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+section {
+  background: rgb(241, 247, 255);
+  background: radial-gradient(
+    circle,
+    rgba(241, 247, 255, 1) 0%,
+    rgba(217, 233, 255, 1) 32%,
+    rgba(194, 206, 255, 1) 72%,
+    rgba(235, 217, 255, 1) 100%
+  );
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+section ul li a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+section ul li a:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li a {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+ul li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.format-form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.submit-button {
+  padding: 8px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #555;
+}
+
+
+
+
