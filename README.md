@@ -1,16 +1,17 @@
 # ProjectWEB PHP
-**Tehnologije**: Projekat koristi PHP, MySQL, HTML i CSS.
+**Technologies**: The project uses PHP, MySQL, HTML, and CSS.
 
-**Arhitektura**: Implementirana je MVC (Model-View-Controller) arhitektura sa OOP (Object-Oriented Programming) pristupom.
+**Architecture**: It implements the MVC (Model-View-Controller) architecture with an OOP (Object-Oriented Programming) approach.
 
-**Korisnički Nivoi**: Postoje četiri nivoa pristupa korisnika - gost, korisnik, moderator i admin.
+**User Levels**: There are four user access levels - guest, user, moderator, and admin.
 
-**Tema Aplikacije**: Aplikacija je fokusirana na učenje jezika.
+**Application Theme**: The application focuses on language learning.
 
-**Baza Podataka**: Korisnički podaci se skladište u MySQL bazi podataka, a admin ima mogućnost upravljanja ovim podacima.
+**Database**: User data is stored in a MySQL database, and the admin has the ability to manage this data.
 
-**Funkcionalnosti**: Svaki korisnik se ubacuje u bazu podataka pri logovanju, admin ima kontrolu nad korisničkim nalozima (može menjati imena, brisati naloge, menjati nivoe pristupa itd.).
+**Functionalities**: Every user is inserted into the database upon login, and the admin has control over user accounts (can change names, delete accounts, change access levels, etc.).
 
-**Izbor Jezika za Učenje**: Nakon što se korisnik uloguje, ima mogućnost da odabere koji jezik želi da studira. Osim toga, može izabrati i način učenja tog jezika. Ovi podaci se čuvaju u bazi podataka i koriste se za personalizovanje iskustva učenja korisnika.
+**Language Selection for Learning**: After logging in, the user has the option to choose which language to study. Additionally, they can choose the learning method for that language. These data are stored in the database and used to personalize the user's learning experience.
+
 
 
